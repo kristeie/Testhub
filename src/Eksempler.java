@@ -2,7 +2,6 @@
 public class Eksempler {
 
 	public static void main(String[] args) {
-		String output = MyComparisons.My 
 		System.out.println("This is my first output, Hello World!");
 		 String first = "a";
 		 String second = "word";
@@ -10,6 +9,11 @@ public class Eksempler {
 		 String fourth = "count";
 		 String concatenate = first +" " + second + " " + third + " " + fourth;
 		 System.out.println(concatenate);
+	}
+	
+	public int add(int a, int b){
+		int c = a + b;
+		return c;
 	}
 
 }
