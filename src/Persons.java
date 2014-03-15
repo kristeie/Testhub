@@ -10,7 +10,11 @@ public class Persons {
 		return birthyear;
 	}
 	
-	
+	String tull(String name){
+		String tull = "heisann";
+		String tot = tull + name;
+		return tot;
+	}
 	
 	
 	
